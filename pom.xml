@@ -79,8 +79,8 @@
 			</activation>
 			<modules>
 				<module>spring-boot-dependencies</module>
-				<module>spring-boot-parent</module>
-				<!--<module>spring-boot-tools</module>
+				<!--<module>spring-boot-parent</module>
+				<module>spring-boot-tools</module>
 				<module>spring-boot</module>
 				<module>spring-boot-test</module>
 				<module>spring-boot-autoconfigure</module>
@@ -96,7 +96,7 @@
 		<profile>
 			<id>integration</id>
 			<activation>
-				<activeByDefault>true</activeByDefault>
+				<activeByDefault>false</activeByDefault>
 			</activation>
 			<modules>
 				<module>spring-boot-integration-tests</module>
